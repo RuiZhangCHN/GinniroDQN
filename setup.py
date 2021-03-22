@@ -13,16 +13,16 @@ from setuptools import find_packages, setup, Command
 
 # Package meta-data.
 NAME = 'GinniroDQN'
-DESCRIPTION = 'My short description for my project.'
+DESCRIPTION = 'My own DQN Library'
 URL = 'https://github.com/RuiZhangCHN/GinniroDQN'
 EMAIL = 'zhang1rui4@foxmail.com'
-AUTHOR = 'RuizhangCHN'
+AUTHOR = 'RuiZhangCHN'
 REQUIRES_PYTHON = '>=2.7.0'
-VERSION = '0.1.0'
+VERSION = '0.4.0'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
-    'torch'
+    'torch'#, 'maya', 'records',
 ]
 
 # What packages are optional?
